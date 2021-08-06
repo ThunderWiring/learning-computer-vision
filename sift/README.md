@@ -40,14 +40,19 @@ For example, here are the keypoints for this image:
 
 And this is how opencv drew them:
 
-Here are other examples
-![alt text](./images/cat_ducks.jpg?raw=true)
+![alt text](./images/keypoints_me.jpg?raw=true)
 
+Here are other examples:
+
+
+![alt text](./images/cat_ducks.jpg?raw=true)
 ![alt text](./images/keypoints_cat.jpg?raw=true)
 ![alt text](./images/olives.jpg?raw=true)
 
-![alt text](./images/keypoints_me.jpg?raw=true)
+
 ![alt text](./images/me_guitar.jpg?raw=true)
 ![alt text](./images/keypoints_samurai1.jpg?raw=true)
 ![alt text](./images/keypoints_samurai2.jpg?raw=true)
+
+For a quick sanity check, the location of the keypoints is mostly on an edgy part of the image, which is exactly how a good keypoint should be positioned.
 
