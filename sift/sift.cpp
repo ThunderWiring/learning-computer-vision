@@ -11,7 +11,9 @@ mapper_cv::SIFT::SIFT(cv::Mat &image) {
     cv::resize(base_img, base_img, cv::Size(128, 128), 0, 0, cv::INTER_NEAREST);
     
     cv::cvtColor(image, base_img_color, cv::COLOR_BGR2GRAY);
-    cv::resize(image, base_img_color, cv::Size(128, 128), 0, 0, cv::INTER_NEAREST);
+    // this image will be used to display the keypoints, thus its size is x2 of the input because
+    // according to the algorithm, the image is up-sampled.
+    cv::resize(image, base_img_color, cv::Size(128*2, 128*2), 0, 0, cv::INTER_NEAREST);
 }
 
 void mapper_cv::SIFT::displayScaleSpace() {
