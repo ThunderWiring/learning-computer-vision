@@ -40,15 +40,13 @@ For example, here are the keypoints for this image:
 
 And this is how opencv drew them:
 
-![alt text](./images/keypoints.JPG?raw=true)
-
 Here are other examples
 ![alt text](./images/cat_ducks.jpg?raw=true)
 
 ![alt text](./images/keypoints_cat.jpg?raw=true)
 ![alt text](./images/olives.jpg?raw=true)
 
-![alt text](./images/me.jpg?raw=true)
+![alt text](./images/keypoints_me.jpg?raw=true)
 ![alt text](./images/me_guitar.jpg?raw=true)
 ![alt text](./images/keypoints_samurai1.jpg?raw=true)
 ![alt text](./images/keypoints_samurai2.jpg?raw=true)
