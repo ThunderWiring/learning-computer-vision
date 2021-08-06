@@ -11,6 +11,10 @@ SIFT algorithm extracts features from image (keypoints + descriptors) in order t
 ## Why SIFT?
 As a beginner in computer vision, this algorithm covers a lot of basic concepts, like keypoints, gradients, histograms, ... etc. i found it extremly helpful to better understand those concepts and built an intuition regarding how the computer descripe an image.
 
+## TODO
+* Create the method to calculate the descriptor feature (histograms)
+* Create function to compare 2 descriptors
+
 ## Results
 Visualizing the results was a bit harder, the drawing functionality didn't provide accurate results, this is something that i'm still working on.
 
@@ -31,6 +35,21 @@ For example, here are the keypoints for this image:
 [135.911, 69.0487]
 [178.107, 86.0004]
 [197.191, 50.2803]
-[109.824, 58.7346]```
+[109.824, 58.7346]
+```
+
 And this is how opencv drew them:
-![alt text](https://github.com/ThunderWiring/learning-computer-vision/blob/main/images/keypoints.JPG?raw=true)
+
+![alt text](./images/keypoints.JPG?raw=true)
+
+Here are other examples
+![alt text](./images/cat_ducks.jpg?raw=true)
+
+![alt text](./images/keypoints_cat.jpg?raw=true)
+![alt text](./images/olives.jpg?raw=true)
+
+![alt text](./images/me.jpg?raw=true)
+![alt text](./images/me_guitar.jpg?raw=true)
+![alt text](./images/keypoints_samurai1.jpg?raw=true)
+![alt text](./images/keypoints_samurai2.jpg?raw=true)
+
