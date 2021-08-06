@@ -12,19 +12,8 @@ using std::vector;
 namespace mapper_cv {
 class SIFT {
 private:
-    // width of border in which to ignore keypoints
-    static const size_t SIFT_IMG_BORDER = 5;
     // maximum steps of keypoint interpolation before failure
     static const size_t SIFT_MAX_INTERP_STEPS = 5;
-    // default number of bins in histogram for orientation assignment
-    static const size_t SIFT_ORI_HIST_BINS = 36;
-    /**
-     * default width of descriptor histogram array (according to the paper it uses
-     * 4x4 descriptor size over 16x16 sample array).
-     */
-    static const int SIFT_DESCR_WIDTH = 4;
-    // default number of bins per histogram in descriptor array
-    static const int SIFT_DESCR_HIST_BINS = 8;
 
     /** Original image (grayscale) without blurring */
     cv::Mat base_img;
