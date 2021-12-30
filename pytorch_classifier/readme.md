@@ -40,11 +40,12 @@ Here are 3 graphs of the loss during the training:
 
 ![image description](assets/nnl_loss3.png)
 
-![image description](assets/nnl_loss_lr_is_0_005.png)
+![nnl_loss_lr_is_0_005.png](assets/nnl_loss_lr_is_0_005.png)
 
 It's worth mentioning that the dataset is not balanced.
 For the next try, will decrease the learning-rate a bit and balance the dataset
-Increased the training to 80 epoches (took ~6hrs!) and did improve slightly: 37 ight guesses out of 553
- (6.6%)
+Increased the training to 80 epoches (took ~6hrs!) and did improve slightly: 37 ight guesses out of 553 (6.6%)
 
-![image description](assets/nnl_loss_lr_is_0_005_80epochs.png)
+![nnl_loss_lr_is 0_005_80epochs.png](assets/nnl_loss_lr_is 0_005_80epochs.png)
+
+(see assets folder for the graphs images)
