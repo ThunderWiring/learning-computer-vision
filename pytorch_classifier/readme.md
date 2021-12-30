@@ -35,8 +35,11 @@ This model didn't do very well, bellow is a track of a training iteration of 15 
 
 Here are 3 graphs of the loss during the training:
 ![image description](assets/nnl_loss.png)
+
 ![image description](assets/nnl_loss2.png)
+
 ![image description](assets/nnl_loss3.png)
+
 ![image description](assets/nnl_loss_lr_is_0_005.png)
 
 It's worth mentioning that the dataset is not balanced.
